@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background: url(./image/343-3436658_fastrack-black-watch-for-girls.png);
+    background-position-y: 70px;
+    background-size: cover; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+img{
+    background: url(./image/Group\ 2.png);
+    background-position: 20px;
+    
+
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.headImg{
+    background-image: url(./image/magnifying-glass.svg);
+    margin-top: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20%;
+}
+.showcaseText{
+    
+    width: 50%;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 20%
+}
